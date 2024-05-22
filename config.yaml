@@ -1,0 +1,28 @@
+ctransformers:
+  model_path:
+    Mistral:  "./models/mistral-7b-instruct-v0.1.Q5_K_M.gguf"
+    Vistral:  "./models/ggml-vistral-7B-chat-f16.gguf"
+
+
+  model_type: "mistral"
+  model_config: 
+    'max_new_tokens': 256
+    'temperature' : 0.2
+    'context_length': 2048
+    'gpu_layers' : 0 
+    'threads' : -1
+
+chat_config:
+  chat_memory_length: 2
+  number_of_retrieved_documents: 3
+
+pdf_text_splitter:
+  chunk_size: 1024 
+  overlap: 50
+  separators: ["\n", "\n\n"]
+
+chromadb:
+  chromadb_path: "chroma_db"
+  collection_name: "pdfs"
+
+chat_sessions_database_path: "./chat_sessions/chat_sessions.db"
