@@ -24,10 +24,10 @@ mkdir chat_sessions chroma_db models
 
 Go to TheBloke/Mistral-7B-Instruct-v0.1-GGUF on Hugging Face (https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.1-GGUF) and download the mistral-7b-instruct-v0.1.Q5_K_M.gguf model file.
 Place the downloaded file in the models folder.
-![Uploading image.png…]()
+![image](https://github.com/blakedrake37/IT_Project_Generative_AI/assets/142980009/40708061-d417-475d-bf60-d3947456dc14)
 
 Similarly, visit uonlp/Vistral-7B-Chat-gguf on Hugging Face (https://huggingface.co/uonlp/Vistral-7B-Chat-gguf) and download the ggml-vistral-7B-chat-f16.gguf model file.
-![Uploading image.png…]()
+![image](https://github.com/blakedrake37/IT_Project_Generative_AI/assets/142980009/34eec57f-7eed-4496-bc71-48552cfd813e)
 
 Place this file in the models folder as well.
 
@@ -63,7 +63,9 @@ Start the Streamlit app using (make sure you've activated your virtual environme
 streamlit run app.py
 ```
 This will launch the web application, usually accessible in your browser at http://localhost:8501 (the exact port might differ).
-![Uploading image.png…]()
+![Screenshot 2024-05-22 182107](https://github.com/blakedrake37/IT_Project_Generative_AI/assets/142980009/8e8433ec-1efb-48c4-9b59-9f34724abbe0)
+
+
 
 ### Additional Notes:
 
