@@ -24,10 +24,12 @@ mkdir chat_sessions chroma_db models
 
 Go to TheBloke/Mistral-7B-Instruct-v0.1-GGUF on Hugging Face (https://huggingface.co/TheBloke/Mistral-7B-Instruct-v0.1-GGUF) and download the mistral-7b-instruct-v0.1.Q5_K_M.gguf model file.
 Place the downloaded file in the models folder.
-![image](https://github.com/blakedrake37/IT_Project_Generative_AI/assets/142980009/40708061-d417-475d-bf60-d3947456dc14)
+![image](https://github.com/blakedrake37/IT_Project_Generative_AI/assets/142980009/2122e870-13f6-41bd-b9ec-f122a50c9284)
+
 
 Similarly, visit uonlp/Vistral-7B-Chat-gguf on Hugging Face (https://huggingface.co/uonlp/Vistral-7B-Chat-gguf) and download the ggml-vistral-7B-chat-f16.gguf model file.
-![image](https://github.com/blakedrake37/IT_Project_Generative_AI/assets/142980009/34eec57f-7eed-4496-bc71-48552cfd813e)
+![image](https://github.com/blakedrake37/IT_Project_Generative_AI/assets/142980009/4ace412f-367e-4f1e-994a-492369de5874)
+
 
 Place this file in the models folder as well.
 
