@@ -28,6 +28,7 @@ Place the downloaded file in the models folder.
 
 
 Similarly, visit uonlp/Vistral-7B-Chat-gguf on Hugging Face (https://huggingface.co/uonlp/Vistral-7B-Chat-gguf) and download the ggml-vistral-7B-chat-f16.gguf model file.
+
 ![image](https://github.com/blakedrake37/IT_Project_Generative_AI/assets/142980009/4ace412f-367e-4f1e-994a-492369de5874)
 
 
